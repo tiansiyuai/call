@@ -1,0 +1,55 @@
+body{
+    margin: 0px;
+    /*background-color: aquamarine;*/
+    background-color: #caf0ec;
+}
+
+table {
+    border: 1px solid cadetblue;
+    border-collapse: collapse;
+    width: 400px;
+    margin: 50px auto;
+}
+
+table td {
+    text-align: center;
+    height: 45px;
+}
+
+table tr:nth-child(even) {
+    background-color: beige;
+}
+
+table tbody tr td{
+    border: 2px solid #3c763d;
+    border-radius: 5px;
+}
+table tr:last-child{
+    color: white;
+    border-radius: 5px;
+}
+.last, .hand:last-child{
+    text-align: right;
+    background-color: darkcyan;
+
+}
+form input[type="submit"]{
+    /*border: 1px solid blue;*/
+    background-color: white;
+    width: 150px;
+    height: 35px;
+    position: absolute;
+    margin: 0 auto;
+}
+
+form input[type="text"] , form input[type="password"]{
+    /*border: 1px solid blue;*/
+    width: 240px;
+    height: 30px;
+    font-size: 16px;
+}
+
+form table td{
+    background-color: white;
+    color: black;
+}

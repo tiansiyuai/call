@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="CalllgenModel" />
+        <module name="calllog" />
+        <module name="CallLogConsumerModule" />
+        <module name="CallLogUtil" />
+        <module name="ssm" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="CalllgenModel" target="1.5" />
+      <module name="calllog" target="1.5" />
+      <module name="CallLogConsumerModule" target="1.5" />
+      <module name="CallLogUtil" target="1.5" />
+      <module name="ssm" target="1.6" />
+      <module name="ssmm" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

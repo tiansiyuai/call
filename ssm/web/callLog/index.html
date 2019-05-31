@@ -1,0 +1,127 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <style>
+        body{
+            /*overflow: hidden;*/
+        }
+        .navbar{
+            z-index: 100;
+            margin: 0;
+        }
+        .container{
+            width: 100%;
+            height: 800px;
+            background: url("../images/595465.jpg") no-repeat;
+            background-size: 100% 80%;
+            background-position: top right;
+
+
+        }
+        .logo{
+            width: 120px;
+            height: 55px;
+            margin-top: -20px;
+        }
+        .sidebar1{
+            position: absolute;
+            top: 100px;
+            border-radius: 100%;
+            width: 300px;
+            height: 200px;
+
+        }
+        .sidebar2{
+            position: absolute;
+            border-radius: 100%;
+            width: 300px;
+            height: 200px;
+            left: 400px;
+            top: 260px;
+
+        }
+        .sidebar3{
+            position: absolute;
+            left: 100px;
+            top: 460px;
+            border-radius: 100%;
+            width: 300px;
+            height: 200px;
+
+        }
+        .sidebar1:hover{
+
+        }
+        footer{
+            margin-top: -160px;
+            height: 160px;
+            background: #222222;
+            color: #ffffff;
+            padding-top: 80px;
+            text-align: center;
+        }
+        .jumbotron {
+            position: absolute;
+            width: 400px;
+            height: 600px;
+            right: 30px;
+            top: 70px;
+
+            background: #ecaa64;
+        }
+
+    </style>
+</head>
+<body>
+
+<nav class="navbar  navbar-inverse">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img src="../images/logo.jpg" class="logo"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="index.jsp">首页 <span class="sr-only">(current)</span></a></li>
+                <li><a href="/callLog/toFindCallLogPage">查询记录</a></li>
+                <li><a href="/callLog/toFindLatestCallLog">统计结果</a></li>
+                <li><a href="/callLog/toFindLatestCallLog">Link</a></li>
+                <li><a href="/callLog/toStatCallLog">Link</a></li>
+
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+<div class="container">
+    <img src="../images/side.jpg" class="sidebar1">
+    <img src="../images/side2.jpg" class="sidebar2">
+    <img src="../images/side3.jpg" class="sidebar3">
+    <div class="right">
+        <div class="jumbotron">
+            <h1>Call Log!</h1>
+            <p><a class="btn btn-primary btn-lg" href="/callLog/toFindCallLogPage" role="button">查询所有通话记录</a></p>
+            <p><a class="btn btn-info btn-lg" href="/callLog/toFindLatestCallLog" role="button">查询最新通话记录</a></p>
+            <p><a class="btn btn-warning btn-lg" href="/callLog/toFindLatestCallLog" role="button">定时查询通话记录</a></p>
+            <p><a class="btn btn-success btn-lg" href="/callLog/toStatCallLog" role="button">通话记录图表分析</a></p>
+            <p><a class="btn btn-danger btn-lg" href="#" role="button">查询个人通话记录</a></p>
+        </div>
+    </div>
+</div>
+<footer>
+    <p>hello &copy; 2017 版权所有 </p>
+</footer>
+</body>
+
+</html>
